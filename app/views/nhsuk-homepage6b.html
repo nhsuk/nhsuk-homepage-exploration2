@@ -40,48 +40,38 @@
           </form>
         </div>
       </div>
-
-    <!--  <div class="nhsuk-account__login">
-        <a class="nhsuk-account__login--link" href="https://www.nhs.uk/nhs-app/account/">
-          My account<svg class="nhsuk-account__login--icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="26" width="26">
-            <path d="M16,18.2c-3.1,0-5.7-2.5-5.7-5.7s2.5-5.7,5.7-5.7c3.1,0,5.7,2.5,5.7,5.7 C21.7,15.7,19.1,18.2,16,18.2"></path>
-            <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0 M24.1,27.5V26 c0-3.5-2.5-6.3-5.7-6.3h-4.8C10.5,19.6,8,22.5,8,26v1.6C1.6,23.1,0,14.3,4.5,8S17.7,0,24,4.5S32,17.7,27.5,24 C26.6,25.4,25.4,26.6,24.1,27.5"></path>
-          </svg></a>
-      </div>
-    -->
-
     </div>
   </div>
   <div class="nhsuk-navigation-container">
     <nav class="nhsuk-navigation" id="header-navigation" role="navigation" aria-label="Primary navigation">
       <ul class="nhsuk-header__navigation-list">
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/conditions">
             Health A-Z
           </a>
         </li>
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/live-well/">
             Live Well
           </a>
         </li>
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/mental-health/">
             Mental health
           </a>
         </li>
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/conditions/social-care-and-support/">
             Care and support
           </a>
         </li>
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/pregnancy/">
             Pregnancy
           </a>
         </li>
         <li class="nhsuk-header__navigation-item">
-          <a class="nhsuk-header__navigation-link" href="">
+          <a class="nhsuk-header__navigation-link" href="https://www.nhs.uk/nhs-services/">
             NHS services
           </a>
         </li>
@@ -107,11 +97,13 @@
 {% endblock %}
 
 
+
+
 <!-- Homepage content -->
 {% block content %}
 
 <!-- hero image and "We're here for you" content -->
-<section class="nhsuk-hero2 nhsuk-hero--image nhsuk-hero--image-description">
+<section class="nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description">
     <script>
       function randomImage() {
           var images =[
@@ -130,17 +122,13 @@
       }
       document.addEventListener("DOMContentLoaded", randomImage);
   </script>
-
-
   <div class="nhsuk-hero__overlay">
     <div class="nhsuk-width-container">
       <div class="nhsuk-grid-row">
         <div class="nhsuk-grid-column-two-thirds">
-          <div class="nhsuk-hero-content nhsuk-hero-content">
-            
-            <h1 class="nhsuk-u-margin-bottom-3">We're here for you</h1>
+          <div class="nhsuk-hero-content">
+            <h1 class="nhsuk-u-margin-bottom-3">We’re here for you</h1>
             <p class="nhsuk-body-l nhsuk-u-margin-bottom-0">Helping you take control of your health and wellbeing.</p>
-
             <span class="nhsuk-hero__arrow" aria-hidden="true"></span>
           </div>
         </div>
@@ -150,10 +138,12 @@
 </section>
 
 
+
+
 <!-- Health A-Z and Medicines A-Z -->
 <section class="nhsuk-section ">
-  <div class="nhsuk-width-container nhsuk-u-padding-top-7 nhsuk-u-padding-bottom-3">
-    <ul class="nhsuk-grid-row nhsuk-card-group nhsuk-u-padding-top-1">
+  <div class="nhsuk-width-container nhsuk-u-padding-top-5 nhsuk-u-padding-bottom-3">
+    <ul class="nhsuk-grid-row nhsuk-card-group nhsuk-u-padding-top-6">
       <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
         <div class="nhsuk-card nhsuk-card--clickable ">
           <div class="nhsuk-card__content nhsuk-card__content--primary">
@@ -184,7 +174,6 @@
   </div>
 </section>
 
-
 <!-- Manage your health -->
 <section class="nhsuk-section nhsuk-u-padding-0">
   <div class="nhsuk-width-container">
@@ -203,13 +192,76 @@
               <li><a href="">How to register with a GP surgery</a></li>
               <li><a href="">Find your NHS number</a></li>
             </ul>
-
         </div>
-
-
-
     </div>
       
+  </div>
+</section>
+
+<!-- Featured -->
+<section class="nhsuk-section">
+  <div class="nhsuk-width-container nhsuk-u-padding-top-0 nhsuk-u-padding-bottom-0">
+
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-full app-section__content">
+      <h2>Featured</h2>
+
+      <ul class="nhsuk-grid-row nhsuk-card-group">
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+            <div class="nhsuk-card__content ">
+          
+            <h2 class="nhsuk-card__heading nhsuk-heading-m">
+              <a class="nhsuk-card__link" href="">
+                Book a COVID-19 vaccination appointment
+              </a>
+            </h2>
+          
+            <p>If you're eligible for a spring COVID-19 vaccine, you can book your appointment online</p>
+            
+          
+            </div>
+          </div>
+        </li>
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+
+            <div class="nhsuk-card__content ">
+            
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                <a class="nhsuk-card__link" href="">
+                  Get healthcare cover abroad with a UK GHIC or UK EHIC
+                </a>
+              </h2>
+                <p>Get or renew your health insurance card to help you get healthcare in the EU and some other countries</p>
+              
+            
+            </div>
+          </div>
+        </li>
+
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+            <div class="nhsuk-card__content ">
+                <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                  <a class="nhsuk-card__link" href="">
+                    Lorem ipsum dolor sit amet
+                  </a>
+                </h2>
+              
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -297,74 +349,6 @@
     </div>
   </div>
 
-</section>
-
-
-<!-- Featured -->
-<section class="nhsuk-section">
-  <div class="nhsuk-width-container nhsuk-u-padding-top-0 nhsuk-u-padding-bottom-0">
-
-    <div class="nhsuk-grid-row">
-      <div class="nhsuk-grid-column-full app-section__content">
-      <h2>Featured</h2>
-
-      <ul class="nhsuk-grid-row nhsuk-card-group">
-
-        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
-          <div class="nhsuk-card  nhsuk-card--clickable ">
-            <div class="nhsuk-card__content ">
-          
-            <h2 class="nhsuk-card__heading nhsuk-heading-m">
-              <a class="nhsuk-card__link" href="">
-                Book a COVID-19 vaccination appointment
-              </a>
-            </h2>
-          
-            <p>If you're eligible for a spring COVID-19 vaccine, you can book your appointment online</p>
-            
-          
-            </div>
-          </div>
-        </li>
-
-        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
-          <div class="nhsuk-card  nhsuk-card--clickable ">
-
-            <div class="nhsuk-card__content ">
-            
-              <h2 class="nhsuk-card__heading nhsuk-heading-m">
-                <a class="nhsuk-card__link" href="">
-                  Get healthcare cover abroad with a UK GHIC or UK EHIC
-                </a>
-              </h2>
-                <p>Get or renew your health insurance card to help you get healthcare in the EU and some other countries</p>
-              
-            
-            </div>
-          </div>
-        </li>
-
-
-        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
-          <div class="nhsuk-card  nhsuk-card--clickable ">
-            <div class="nhsuk-card__content ">
-                <h2 class="nhsuk-card__heading nhsuk-heading-m">
-                  <a class="nhsuk-card__link" href="">
-                    Lorem ipsum dolor sit amet
-                  </a>
-                </h2>
-              
-                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            
-            </div>
-          </div>
-        </li>
-
-      </ul>
-      </div>
-    </div>
-
-  </div>
 </section>
 
 
@@ -467,10 +451,8 @@
     </div>
   </div>
 </section>
+
 {% endblock %}
-
-
-
 
 
 <!-- NHS.UK footer -->
