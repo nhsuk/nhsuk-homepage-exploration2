@@ -9,3 +9,39 @@
 // Add your custom CSS/Sass styles below...
 ///////////////////////////////////////////
   
+//@media (min-width: 40.0625em) {
+//.nhsuk-hero--image-description .nhsuk-hero-content {
+//    bottom: 60px;
+//    }   
+//}
+
+//Change class so only affects option c
+.nhsuk-hero--image-description .nhsuk-hero-content {
+    background-color: #005eb8;
+    color: #ffffff;
+    margin-bottom: 24px;
+    padding: 24px;
+    position: relative;
+    top: 70px;
+    max-width: 35em;
+
+    width: 85%;
+}
+
+/* 
+@media (min-width: 40.0625em) {
+    .nhsuk-hero--image-description .nhsuk-hero-content {
+        top: 0px;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 23.4375em) {
+    .nhsuk-hero--image-description .nhsuk-hero-content {
+        top: 40px;
+        width: 100%;
+
+    }
+}
+ */
