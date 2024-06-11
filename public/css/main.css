@@ -7495,7 +7495,7 @@ b {
   }
 }
 
-.nhsuk-hero--image-description .nhsuk-hero-content {
+.nhsuk-hero--image-description2 .nhsuk-hero-content2 {
   background-color: #005eb8;
   color: #ffffff;
   margin-bottom: 24px;
@@ -7506,7 +7506,7 @@ b {
   width: 85%;
 }
 
-/* 
+/*  --------------Not sure if need 
 @media (min-width: 40.0625em) {
     .nhsuk-hero--image-description .nhsuk-hero-content {
         top: 0px;
@@ -7522,4 +7522,4 @@ b {
 
     }
 }
- */
+------------------------ */
