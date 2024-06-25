@@ -25,7 +25,17 @@
         </svg>
       </a>
     </div>
+
+
+      
     <div class="nhsuk-header__content" id="content-header">
+      <style>.nhsuk-account__login{float:right;margin-left:1em;margin-right:-16px;position:relative;z-index:2}
+      .nhsuk-account__login--icon{fill:#fff;height:1.6em;margin-left:.6em;position:relative;top:.4em;width:1.6em}
+      .nhsuk-account__login--link,.nhsuk-account__login--link:visited,.nhsuk-account__login--link:hover{color:#fff;padding:1em}
+      .nhsuk-account__login--link:focus .nhsuk-account__login--icon{fill:#212b32}@media(min-width: 40.0625em){.nhsuk-account__login{margin-right:-8px}
+      .nhsuk-account__login--link,.nhsuk-account__login--link:hover{margin-right:.6em;padding:.6em}}
+      </style>
+
       <div class="nhsuk-header__search">
         <div class="nhsuk-header__search-wrap" id="wrap-search">
           <form class="nhsuk-header__search-form" id="search" action="https://www.nhs.uk/search/" method="get" role="search">
@@ -40,8 +50,20 @@
           </form>
         </div>
       </div>
+
+      <div class="nhsuk-account__login">
+        <a class="nhsuk-account__login--link" href="https://www.nhs.uk/nhs-app/account/">
+          My account<svg class="nhsuk-account__login--icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="26" width="26">
+            <path d="M16,18.2c-3.1,0-5.7-2.5-5.7-5.7s2.5-5.7,5.7-5.7c3.1,0,5.7,2.5,5.7,5.7 C21.7,15.7,19.1,18.2,16,18.2"></path>
+            <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0 M24.1,27.5V26 c0-3.5-2.5-6.3-5.7-6.3h-4.8C10.5,19.6,8,22.5,8,26v1.6C1.6,23.1,0,14.3,4.5,8S17.7,0,24,4.5S32,17.7,27.5,24 C26.6,25.4,25.4,26.6,24.1,27.5"></path>
+          </svg></a>
+      </div>
     </div>
   </div>
+
+
+
+
   <div class="nhsuk-navigation-container">
     <nav class="nhsuk-navigation" id="header-navigation" role="navigation" aria-label="Primary navigation">
       <ul class="nhsuk-header__navigation-list">
@@ -142,11 +164,11 @@
 
 
 <!-- Health A-Z and Medicines A-Z -->
-<section class="nhsuk-section nhsuk-u-padding-top-5">
-  <div class="nhsuk-width-container nhsuk-u-padding-top-6 nhsuk-u-padding-bottom-3">
+<section class="nhsuk-section nhsuk-u-padding-top-6">
+  <div class="nhsuk-width-container nhsuk-u-padding-top-5 nhsuk-u-padding-bottom-3">
     <ul class="nhsuk-grid-row nhsuk-card-group nhsuk-u-padding-top-6">
       <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
-        <div class="nhsuk-card nhsuk-card--clickable">
+        <div class="nhsuk-card nhsuk-card--clickable ">
           <div class="nhsuk-card__content nhsuk-card__content--primary">
             <h2 class="nhsuk-card__heading nhsuk-heading-m">
               <a class="nhsuk-card__link" href="">
@@ -175,113 +197,148 @@
   </div>
 </section>
 
-<!-- Manage your health & Featured -->
-<section class="nhsuk-section">
+<!-- Manage your health -->
+<section class="nhsuk-section nhsuk-u-padding-0">
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-        <div class="nhsuk-grid-column-one-half app-section__content">
-          <h2>Manage your health</h2>
-
-          <div class="nhsuk-u-padding-bottom-4">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">Order a repeat prescription</span>
-            </a>
-          </div>
-
-          <div class="nhsuk-u-padding-bottom-4">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">View your GP health record</span>
-            </a>
-          </div>
-
-          <div class="nhsuk-u-padding-bottom-4">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">View your test results</span>
-            </a>
-          </div>
-
-          <div class="nhsuk-u-padding-bottom-4">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">Appointments and bookings at your GP surgery</span>
-            </a>
-          </div>
-
-          <div class="nhsuk-u-padding-bottom-4">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">How to register with a GP surgery</span>
-            </a>
-          </div>
-
-          <div class="">
-            <a class="nhsuk-action-link__link" href="">
-              <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-              </svg>
-              <span class="nhsuk-action-link__text">Find your NHS number</span>
-            </a>
-          </div>
+      
+        <div class="nhsuk-grid-column-full app-section__content app-section__content nhsuk-u-padding-top-7">
+           <div class="nhsuk-u-reading-width">
+              <h2>Manage your health</h2>
+            </div>
 
 
-      </div>
-      <div class="nhsuk-grid-column-one-half app-section__content">
-        <h2>Featured</h2>
-
-        <div class="nhsuk-card ">
-          <div class="nhsuk-card__content">
-            <ul class="beta-hub-related-links">
-          
-              <li class="beta-hub-related-links__list-item">
-                <a href="">
-                  <b>Hay fever</b>
-                </a>
-                  <div>Find out about the symptoms and causes of hay fever, who's affected and what treatments are available.</div>
-              </li>
-            
-              <li class="beta-hub-related-links__list-item">
-                <a href="">
-                  <b>Heat rash (prickly heat)</b>
-                </a>
-                  <div>Find out about heat rash, also called prickly heat, which is an itchy rash of small, raised spots and a stinging or prickling sensation on the skin.</div>
-              </li>
-
-              <li class="beta-hub-related-links__list-item">
-                <a href="">
-                  <b>Sunscreen and sun safety</b>
-                </a>
-                  <div>Find out how to protect your skin and eyes from UV sun damage, plus advice on using sunbeds and checking moles.</div>
-              </li>
-            </ul>          
-          </div>
+            <div class="nhsuk-u-padding-bottom-4">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">Order a repeat prescription</span>
+              </a>
+            </div>
+  
+            <div class="nhsuk-u-padding-bottom-4">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">View your GP health record</span>
+              </a>
+            </div>
+  
+            <div class="nhsuk-u-padding-bottom-4">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">View your test results</span>
+              </a>
+            </div>
+  
+            <div class="nhsuk-u-padding-bottom-4">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">Appointments and bookings at your GP surgery</span>
+              </a>
+            </div>
+  
+            <div class="nhsuk-u-padding-bottom-4">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">How to register with a GP surgery</span>
+              </a>
+            </div>
+  
+            <div class="nhsuk-u-padding-bottom-1">
+              <a class="nhsuk-action-link__link" href="">
+                <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+                </svg>
+                <span class="nhsuk-action-link__text">Find your NHS number</span>
+              </a>
+            </div>
         </div>
-
-
-      </div>
     </div>
+      
   </div>
 </section>
 
+<!-- Featured -->
+<section class="nhsuk-section">
+  <div class="nhsuk-width-container nhsuk-u-padding-top-0 nhsuk-u-padding-bottom-0">
 
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-full app-section__content">
+      <h2>Featured</h2>
+
+      <ul class="nhsuk-grid-row nhsuk-card-group">
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+            <div class="nhsuk-card__content ">
+          
+            <h2 class="nhsuk-card__heading nhsuk-heading-m">
+              <a class="nhsuk-card__link" href="">
+                Hay fever
+              </a>
+            </h2>
+          
+            <p>Find out about the symptoms and causes of hay fever, who's affected and what treatments are available.</p>
+            
+          
+            </div>
+          </div>
+        </li>
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+
+            <div class="nhsuk-card__content ">
+            
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                <a class="nhsuk-card__link" href="">
+                  Heat rash (prickly heat)
+                </a>
+              </h2>
+                <p>Find out about heat rash, also called prickly heat, which is an itchy rash of small, raised spots and a stinging or prickling sensation on the skin.</p>
+              
+            
+            </div>
+          </div>
+        </li>
+
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card  nhsuk-card--clickable ">
+            <div class="nhsuk-card__content ">
+                <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                  <a class="nhsuk-card__link" href="">
+                    Sunscreen and sun safety
+                  </a>
+                </h2>
+              
+                <p>Find out how to protect your skin and eyes from UV sun damage, plus advice on using sunbeds and checking moles.</p>
+            
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
 <!-- Find a service -->
