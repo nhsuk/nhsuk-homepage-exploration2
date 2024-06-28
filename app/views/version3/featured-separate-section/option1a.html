@@ -13,6 +13,7 @@
   <link href="/css/nhsuk.css" rel="stylesheet">
 {% endblock %}
 
+
 <!-- NHS.UK header -->
 {% block header %}
 <header class="nhsuk-header{% if transactional %} nhsuk-header--transactional{% endif %}" role="banner">
@@ -27,7 +28,14 @@
     </div>
 
     <div class="nhsuk-header__content" id="content-header">
-      <style>.nhsuk-account__login{float:right;margin-left:1em;margin-right:-16px;position:relative;z-index:2}.nhsuk-account__login--icon{fill:#fff;height:1.6em;margin-left:.6em;position:relative;top:.4em;width:1.6em}.nhsuk-account__login--link,.nhsuk-account__login--link:visited,.nhsuk-account__login--link:hover{color:#fff;padding:1em}.nhsuk-account__login--link:focus .nhsuk-account__login--icon{fill:#212b32}@media(min-width: 40.0625em){.nhsuk-account__login{margin-right:-8px}.nhsuk-account__login--link,.nhsuk-account__login--link:hover{margin-right:.6em;padding:.6em}}</style>
+      <style>
+      .nhsuk-account__login{float:right;margin-left:1em;margin-right:-16px;position:relative;z-index:2}
+      .nhsuk-account__login--icon{fill:#fff;height:1.6em;margin-left:.6em;position:relative;top:.4em;width:1.6em}
+      .nhsuk-account__login--link,.nhsuk-account__login--link:visited,
+      .nhsuk-account__login--link:hover{color:#fff;padding:1em}
+      .nhsuk-account__login--link:focus.nhsuk-account__login--icon{fill:#212b32}@media(min-width: 40.0625em){.nhsuk-account__login{margin-right:-8px}
+      .nhsuk-account__login--link,.nhsuk-account__login--link:hover{margin-right:.6em;padding:.6em}}
+      </style>
       <div class="nhsuk-account__login">
         <a class="nhsuk-account__login--link" href="https://www.nhs.uk/nhs-app/account/">
           My account<svg class="nhsuk-account__login--icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="26" width="26">
@@ -181,11 +189,10 @@
 </section>
 
 
-<section></section>
 
 
 <!-- Health A-Z and Medicines A-Z -->
-<section class="nhsuk-section nhsuk-u-padding-top-6">
+<section class="nhsuk-section ">
   <div class="nhsuk-width-container nhsuk-u-padding-top-5 nhsuk-u-padding-bottom-3">
     <ul class="nhsuk-grid-row nhsuk-card-group nhsuk-u-padding-top-6">
       <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
@@ -310,11 +317,11 @@
           
             <h2 class="nhsuk-card__heading nhsuk-heading-m">
               <a class="nhsuk-card__link" href="">
-                Hay fever
+                Book a COVID-19 vaccination appointment
               </a>
             </h2>
           
-            <p>Find out about the symptoms and causes of hay fever, who's affected and what treatments are available.</p>
+            <p>If you're eligible for a spring COVID-19 vaccine, you can book your appointment online</p>
             
           
             </div>
@@ -328,10 +335,10 @@
             
               <h2 class="nhsuk-card__heading nhsuk-heading-m">
                 <a class="nhsuk-card__link" href="">
-                  Heat rash (prickly heat)
+                  Get healthcare cover abroad with a UK GHIC or UK EHIC
                 </a>
               </h2>
-                <p>Find out about heat rash, also called prickly heat, which is an itchy rash of small, raised spots and a stinging or prickling sensation on the skin.</p>
+                <p>Get or renew your health insurance card to help you get healthcare in the EU and some other countries</p>
               
             
             </div>
@@ -344,11 +351,11 @@
             <div class="nhsuk-card__content ">
                 <h2 class="nhsuk-card__heading nhsuk-heading-m">
                   <a class="nhsuk-card__link" href="">
-                    Sunscreen and sun safety
+                    Whooping cough
                   </a>
                 </h2>
               
-                <p>Find out how to protect your skin and eyes from UV sun damage, plus advice on using sunbeds and checking moles.</p>
+                <p>Find out about whooping cough, including the symptoms, who's at risk, when to get medical advice, how it's treated and the whooping cough vaccine</p>
             
             </div>
           </div>
@@ -400,7 +407,7 @@
           </li>
 
         
-          <li>  
+          <li>
             <a href="">
               <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>

@@ -14,6 +14,8 @@
 
 
 
+
+
 //@media (min-width: 40.0625em) {
 //.nhsuk-hero--image-description .nhsuk-hero-content {
 //    bottom: 60px;
@@ -230,3 +232,17 @@
 }
 
 - */
+
+
+.twocolumn-actionlink {
+  column-count: 2;
+  padding-left: 0;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .twocolumn-actionlink {
+    column-count: 1;
+  }
+}
+
