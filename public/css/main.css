@@ -8120,14 +8120,6 @@ b {
   background-color: #002f5c;
 }
 
-.nhsuk-account__login {
-  float: right;
-  margin-left: 1em;
-  margin-right: -16px;
-  position: relative;
-  z-index: 2;
-}
-
 @media (min-width: 40.0625em) {
   .nhsuk-header__search {
     float: left;
@@ -8170,6 +8162,14 @@ b {
   outline: 4px solid transparent;
   outline-offset: 4px;
   box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+}
+
+.nhsuk-account__login {
+  float: right;
+  margin-left: 1em;
+  margin-right: -16px;
+  position: relative;
+  z-index: 2;
 }
 
 .nhsuk-hero--image-description .nhsuk-hero-content2 {
